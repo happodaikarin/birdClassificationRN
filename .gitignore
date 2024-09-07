@@ -1,9 +1,6 @@
 # Ignorar la carpeta de entorno virtual de Python
-.venv
-backend/venv/
-
+/home/hapoosai/ICONS/birdClassificationRN/backend/venv
 # Ignorar node_modules del frontend
-frontend/node_modules/
-
+/home/hapoosai/ICONS/birdClassificationRN/frontend/node_modules
 # Otras reglas de .gitignore pueden ir aquí
 .venv/
