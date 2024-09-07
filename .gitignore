@@ -1,5 +1,5 @@
 # Ignorar la carpeta de entorno virtual de Python
-/backend/venv
-/frontend/node_modules
+backend/venv
+frontend/node_modules
 # Otras reglas de .gitignore pueden ir aquí
 .venv/
