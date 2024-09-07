@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f2; /* Un color de fondo suave */
+  font-family: 'Arial', sans-serif; /* Una fuente limpia y fácil de leer */
+}
+
+.App input[type="file"] {
+  margin: 10px 0;
+  border: 2px solid #8c8c8c; /* Bordes sutiles para el input */
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.App button {
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #4CAF50; /* Color verde naturaleza */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra para darle profundidad */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+.App button:hover {
+  background-color: #367c39; /* Un tono más oscuro al pasar el ratón */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.App div {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Estilo adicional para la predicción */
+.App .prediction {
+  background-color: #ddf2d6; /* Color de fondo suave para la predicción */
+  border-radius: 10px;
+  padding: 10px;
+  border-left: 5px solid #4CAF50; /* Borde izquierdo destacado */
+  margin: 20px auto; /* Centrar y dar espacio */
+  width: fit-content; /* Ajustar al contenido */
+}

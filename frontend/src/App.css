@@ -1,0 +1,39 @@
+/* Estilos con temática natural */
+body {
+  font-family: 'Your-Nature-Font', sans-serif;
+  background: linear-gradient(to right, #76b852, #8DC26F); /* Gradiente que recuerda a un bosque */
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image-upload-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(250, 250, 250, 0.9);
+  border: 2px solid #8DC26F;
+  border-radius: 10px;
+}
+
+.image-upload-container input[type="file"] {
+  cursor: pointer;
+}
+
+.image-upload-container button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
