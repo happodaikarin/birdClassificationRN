@@ -1,2 +1,8 @@
-backend/venv
-frontend/node_modules
+# Ignorar la carpeta de entorno virtual de Python
+.venv
+backend/venv/
+
+# Ignorar node_modules del frontend
+frontend/node_modules/
+
+# Otras reglas de .gitignore pueden ir aquí
